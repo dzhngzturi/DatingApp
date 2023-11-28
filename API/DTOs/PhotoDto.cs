@@ -4,6 +4,6 @@
     {
         public int Id { get; set; }
         public string PhotoUrl { get; set; }
-        public string IsMain { get; set; }
+        public bool IsMain { get; set; }
     }
 }

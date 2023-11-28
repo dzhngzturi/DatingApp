@@ -1,11 +1,7 @@
 ﻿using API.Data;
 using API.DTOs;
 using API.Entities;
-using API.Interface;
 using AutoMapper;
-using AutoMapper.QueryableExtensions;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace API.Helpers
 {

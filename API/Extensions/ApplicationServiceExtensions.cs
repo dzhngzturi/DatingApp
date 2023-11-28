@@ -19,8 +19,8 @@ namespace API.Extensions
             services.AddCors();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserRepository, UserRepository>();
-          // services.AddTransient<MemberUrlResolver>();
-          // services.AddTransient<PhotoUrlResolver>();
+           //services.AddTransient<MemberUrlResolver>();
+           //services.AddTransient<PhotoUrlResolver>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<CloudinarySettings>(configuration.GetSection("CloudinarySettings"));
             services.AddScoped<IPhotoService, PhotoService>();
