@@ -19,17 +19,15 @@ namespace API.Extensions
 
             services.AddCors();
             services.AddScoped<ITokenService, TokenService>();
-            services.AddScoped<IUserRepository, UserRepository>();
            //services.AddTransient<MemberUrlResolver>();
            //services.AddTransient<PhotoUrlResolver>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<CloudinarySettings>(configuration.GetSection("CloudinarySettings"));
             services.AddScoped<IPhotoService, PhotoService>();
             services.AddScoped<LogUserActivity>();
-            services.AddScoped<ILikeRepository, LikesRepository>();
-            services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddSignalR();
             services.AddSingleton<PresenceTracker>();
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             return services;
         }
 
