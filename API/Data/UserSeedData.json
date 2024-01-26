@@ -13,6 +13,7 @@
     "Country": "Cayman Islands",
     "Photos": [
       {
+        "IsApproved":  true,
         "PhotoUrl": "https://live.staticflickr.com/65535/53330075849_2d3cec2590_m.jpg",
         "IsMain": true
       }
@@ -32,6 +33,7 @@
     "Country": "Korea (South)",
     "Photos": [
       {
+        "IsApproved": true,
         "PhotoUrl": "https://live.staticflickr.com/65535/53330191705_20bd87813d_m.jpg",
         "IsMain": true
       }
@@ -51,6 +53,7 @@
     "Country": "Mozambique",
     "Photos": [
       {
+        "IsApproved": true,
         "PhotoUrl": "https://live.staticflickr.com/65535/53330075929_661beaca82_m.jpg",
         "IsMain": true
       }
@@ -70,6 +73,7 @@
     "Country": "Virgin Islands (British)",
     "Photos": [
       {
+        "IsApproved": true,
         "PhotoUrl": "https://live.staticflickr.com/65535/53330191695_609168393b_m.jpg",
         "IsMain": true
       }
@@ -89,6 +93,7 @@
     "Country": "Libya",
     "Photos": [
       {
+        "IsApproved": true,
         "PhotoUrl": "https://live.staticflickr.com/65535/53330191740_724bbde61b_m.jpg",
         "IsMain": true
       }
@@ -108,6 +113,7 @@
       "Country": "Cayman Islands",
       "Photos": [
         {
+          "IsApproved": true,
           "PhotoUrl": "https://live.staticflickr.com/65535/53330191720_bbdabfddb2_m.jpg",
           "IsMain": true
         }
@@ -127,6 +133,7 @@
       "Country": "Tajikistan",
       "Photos": [
         {
+          "IsApproved": true,
           "PhotoUrl": "https://live.staticflickr.com/65535/53329738486_d087bd1b40_m.jpg",
           "IsMain": true
         }
@@ -146,6 +153,7 @@
       "Country": "Georgia",
       "Photos": [
         {
+          "IsApproved": true,
           "PhotoUrl": "https://live.staticflickr.com/65535/53329738491_a1171d3022_m.jpg",
           "IsMain": true
         }
@@ -165,6 +173,7 @@
       "Country": "Malawi",
       "Photos": [
         {
+          "IsApproved": true,
           "PhotoUrl": "https://live.staticflickr.com/65535/53329961243_bee7bd8dda_m.jpg",
           "IsMain": true
         }
@@ -184,6 +193,7 @@
       "Country": "Tanzania",
       "Photos": [
         {
+          "IsApproved": true,
           "PhotoUrl": "https://live.staticflickr.com/65535/53330191790_b71df7c87c_m.jpg",
           "IsMain": true
         }

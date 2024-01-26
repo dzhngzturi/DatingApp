@@ -18,6 +18,8 @@ namespace API.Data
         public IMessageRepository MessageRepository => new MessageRepository(_dataContext, _mapper);
 
         public ILikeRepository LikeRepository => new LikesRepository(_dataContext);
+        
+        public IPhotoRepository PhotoRepository => new PhotoRepository(_dataContext, _mapper);
 
         public async Task<bool> Complete()
         {
